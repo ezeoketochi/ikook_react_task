@@ -9,9 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
-    },
-    "homepage": "https://ezeoketochi.github.io/ikook_react_task",
-    "dependencies": {
+  },
+  "homepage": "https://ezeoketochi.github.io/ikook_react_task",
+  "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@fontsource/poppins": "^5.0.15",
