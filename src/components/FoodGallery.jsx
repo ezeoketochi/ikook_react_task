@@ -5,7 +5,7 @@ import Location from "../assets/location.png";
 
 export function FoodItem() {
   return (
-    <div className="flex flex-col my-5">
+    <div className="flex flex-col my-5 overflow-x-hidden">
       <div
         className="flex flex-col justify-between p-2 h-[257px] w-[320px] bg-cover bg-center"
         style={{ backgroundImage: `url(${foodImage})` }}

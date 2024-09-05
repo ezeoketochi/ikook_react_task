@@ -10,18 +10,18 @@ import MasterCard from "../assets/mastercard.png";
 
 export default function IkookFooter() {
   return (
-    <footer>
+    <footer className="overflow-x-hidden">
       <div className="bg-ikookYellow  ">
         <div className="p-4 mx-10">
           <div className="flex flex-col justify-around mt-12 ">
             <div className="flex justify-between h-[60px] items-center mb-12">
               <h1 className="font-bold text-3xl">Join our Newsletter</h1>
               <div className="p-2 bg-white w-1/6 rounded-3xl my-auto px-3 h-full">
-                <input className="outline-none text-center" placeholder="Enter your name" />
+                <input className="outline-none text-center py-2" placeholder="Enter your name" />
               </div>
               <div className=" bg-white rounded-3xl w-2/6 my-auto  px-3 h-full items-center justify-center">
                 <input
-                  className="outline-none flex justify-center m-auto leading-none text-center my-auto"
+                  className="outline-none text-center justify-center flex mx-auto py-4"
                   placeholder="Enter email"
                 />
               </div>
