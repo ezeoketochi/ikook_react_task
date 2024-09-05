@@ -17,7 +17,7 @@ export default function IkookFooter() {
             <div className="flex justify-between h-[60px] items-center mb-12">
               <h1 className="font-bold text-3xl">Join our Newsletter</h1>
               <div className="p-2 bg-white w-1/6 rounded-3xl my-auto px-3 h-full">
-                <input className="outline-none text-center py-2" placeholder="Enter your name" />
+                <input className="outline-none text-center py-2 w-full" placeholder="Enter your name" />
               </div>
               <div className=" bg-white rounded-3xl w-2/6 my-auto  px-3 h-full items-center justify-center">
                 <input

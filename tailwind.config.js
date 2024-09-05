@@ -6,9 +6,11 @@ export default {
       colors: {
         ikookYellow: "rgba(252, 192, 28, 1)",
       },
+      fontFamily:{
+        poppins :['Poppins' , 'sans-serif']
+      }
     },
   },
   plugins: [],
 };
 
-"./index.html", "./src/**/*.{js,ts,jsx,tsx}";

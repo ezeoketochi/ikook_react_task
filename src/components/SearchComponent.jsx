@@ -47,7 +47,7 @@ export function SearchSection() {
         <div className=" flex justify-around  w-2/5 h-[59px] rounded-3xl  border-2 border-gray-50 p-2">
           <input
             placeholder="Can’t find what you want? use the custom booking"
-            className="outline-none w-3/5 "
+            className="outline-none placeholder-gray-700 placeholder:text-xs w-3/5"
           />
           <button className="bg-ikookYellow rounded-2xl text-white font-bold px-4 py-2">
             Custom Booking
